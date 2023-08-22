@@ -1,13 +1,10 @@
 
 spring:
-    datasourse:
+    datasource :
         username : root
         password : rootpass
-        url:jdbc:mysql://localhost:3306/sbms;
-        Driver-class-name : com.mysql.jdbc.Drive
-
-
-Jpa:
-    Hibernate :
-        Ddl-auto : update 
-    Show-squl : true 
+        url: jdbc:mysql://localhost:3306/course
+        driver-class-name : com.mysql.cj.jdbc.Driver
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
