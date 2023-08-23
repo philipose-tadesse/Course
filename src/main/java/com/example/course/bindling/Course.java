@@ -10,6 +10,6 @@ public class Course {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int CID;
-    private String Name;
+    private String name;
     private Double price;
 }
